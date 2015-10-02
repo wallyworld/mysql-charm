@@ -412,3 +412,6 @@ else:
     for path in ["/etc/cron.d/mysql_backup", "/usr/local/bin/mysql_backup.sh"]:
         if os.path.exists(path):
             os.unlink(path)
+
+check_call(['status-set','active'])
+

@@ -3,3 +3,5 @@
 set -e
 
 service mysql restart
+
+status-set active
